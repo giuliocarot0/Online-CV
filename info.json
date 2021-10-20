@@ -1,0 +1,137 @@
+{
+    "aboutme" : "Hello, World! My name is Giulio Carota. Born in Melfi(PZ), Italy, in 1998. Five years of computer engineering studies, specialization in Cloud Computing and Computer and Mobile Networks. Great teamplayer, curious, enterprising andfascinatedby other people's knowledge. If requested, always ready to mediate and participate in conflicts resolution. Problem-solving attitude (evaluated critical issues and generated solutions in many experiences). Familiar with Data Center Networks, Open and Virtualized Optical Networks (academic courses andpersonal insights). Greatinterestin NFV, SDN and Network automation(ONAPintroductioncourse). Experience invirtualization,network administration, many programming languages, versioning control platforms and OS. Fluent professional English(C1) and native Italian. Always learning and looking forward for new challanges",
+
+    "education" : [
+                        {
+                            "title": "High School Diploma",
+                            "where": "I.I.S. Federico II di Svevia",
+                            "from": "2012",
+                            "to": "2017",
+                            "finalMark" : "100L/100",
+                            "logo" : "http://www.liceomelfi.eu/images/stories/logo%20liceo%20scontornato.png",
+			    "description":""
+                        },
+                        {
+			    "description":"",
+                            "title": "Bachelor Degree - Computer Engineering",
+                            "where": "Politecnico di Torino",
+                            "from": "2017",
+                            "to": "2020",
+                            "finalMark" : "105/110",
+                            "logo" :"https://upload.wikimedia.org/wikipedia/it/thumb/2/27/Politecnico_di_Torino_-_Logo.svg/1200px-Politecnico_di_Torino_-_Logo.svg.png"
+                        },
+                        {
+			    "description":"",
+                            "title": "Master Degree - Computer Networks And Cloud Computing",
+                            "where": "Politecnico di Torino",
+                            "from": "2020",
+                            "to": "now",
+                            "finalMark" : "-",
+                            "logo" :"https://upload.wikimedia.org/wikipedia/it/thumb/2/27/Politecnico_di_Torino_-_Logo.svg/1200px-Politecnico_di_Torino_-_Logo.svg.png"
+                        },
+			{
+			   "description":"",
+                            "title": "ERASMUS+ Double Degree Master - Intelligent Communication Systems",
+                            "where": "EURECOM",
+                            "from": "2021",
+                            "to": "now",
+                            "finalMark" : "-",
+                            "logo" :"https://www.eurecom.fr/sites/www.eurecom.fr/files/images/1-IMG_Eurecom/IMG_Media/EURECOM_logo_small.jpg"
+			}
+                ],
+    "skills":[
+                {"name": "C", "level":80},
+                {"name": "Java", "level":75},
+                {"name": "MIPS", "level":80},
+                {"name": "Python", "level":70},
+                {"name": "JavaScript", "level":80},
+                {"name": "Matlab", "level":80},
+                {"name": "Office", "level":90},
+                {"name": "MySQL", "level":90},
+                {"name": "MongoDB", "level":70},
+                {"name": "Web Applications", "level":90},
+                {"name": "Authentication Infrastructures", "level":90},
+                {"name": "VMWare ESXi / vSphere", "level":80},
+                {"name": "Linux", "level":80}
+    ],
+    "projects":[
+                {
+                    "name": "PYna Mood Reader",
+                    "description": "On March 2018, my team joined the Clik@Polito's hackathon. To respond to the challenge's request, we created a smart, internet and domotic compliant device: PYna Mood Reader.  This unique device can detect autonomously the mood and orchestrate multiple IoT devices/services to make the environment more comfortable for the user.",
+                    "link": [
+                                {
+                                    "url": "https://pyna.io",
+                                    "description": "Link to project web site"
+                                },
+                                {
+                                    "url": "https://www.ilmessaggero.it/speciali/makerfaire/maker_faire_2018_pyna_dispositivo_mette_buon_umore-4034902.html",
+                                    "description": "Pyna Team interviewed by 'Il Messaggero'"
+                                }
+                            ]
+
+                },
+		{
+		   "name": "TheSurvey WebAPP",
+	           "description": "TheSurvey is a simple webapp created using react and express.js. The project was created as an assignement solution. This app allows users to create and submit surveys and then check the results through a reserved dashboard.",
+		   "link" : [
+				{
+				   "url": "https://forms.resilientnet.com",
+				   "description": "Link to the deployed app"
+				}
+
+			    ]
+
+		},{
+            "name": "Elastic Optical Network Simulator",
+                "description": "EONS software can simulate Virtualized and Elastic Optical networks based on DVWDM and ROADM with a centralized control plane approach",
+            "link" : [
+                 {
+                    "url": "https://github.com/giuliocarot0/Elastic-Optical-Network-Simulator",
+                    "description": "Link to the GitHub repository"
+                 }
+ 
+                 ]
+ 
+         },{
+            "name": "ResilientNet / Web File Manager",
+                "description": "A web filemanager backend which allows clients to interact with the filesystem through a REST API. The project is intented for accessing own web hosting directories after being authenitcated by ResilientNet IDP Server",
+            "link" : [
+                 {
+                    "url": "https://github.com/ResilientNET/hosting-java-filebridge",
+                    "description": "Link to the GitHub Repository"
+                 }
+                 ]
+ 
+         },
+                {
+                    "name": "ResilientNet / Home Lab",
+                    "description": "ResilientLAB is a homelab built during the second wave of the covid pandemic in Italy. Starting from 0 I've set my infrastructure based on recycled hardware to host an Hypervisor + some kubernetes nodes on which I am building a small cloud environment",
+                    "link": [
+                                {
+                                    "url": "https://lab.resilientnet.com/",
+                                    "description": "Link to project web site"
+                                },
+                                {
+                                    "url": "https://lab.resilientnet.com/blog",
+                                    "description": "Link to project blog"
+                                }
+                            ]
+                },
+                {
+                    "name": "ResilientNet / APIs",
+                    "description": "Under construction API server, allows clients to interact with different backend services and manage subscriptions to them",
+                    "link": [
+                                {
+                                    "url": "https://github.com/giuliocarot0/resilientnet-api",
+                                    "description": "Link to the github repository"
+                                }
+                        ]
+
+                },
+                {
+                    "name": "ResilientNet / Identity Provider ",
+                    "description": "Implementation of an IDP to provide authentication for Cloud Applications and Customers. Exploits SAML2 and OpenID Connect protocols.",
+                    "link": [ ]
+                }
+        ]
+}
